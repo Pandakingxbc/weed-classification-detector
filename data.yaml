@@ -1,0 +1,13 @@
+# 数据集根目录路径
+path: C:/Users/86137/Desktop/Computer Vision/datasets
+
+# 训练集和验证集图像路径，相对于 'path' 路径
+train: images/train  # 训练集图像文件夹
+val: images/val      # 验证集图像文件夹
+augment: true  # 启用数据增强
+
+# 数据集类别数量
+nc: 2  # 数据集的类别数量（根据你的数据集设置）
+
+# 类别名称，顺序要和标签文件中的类别索引一致
+names: ['mq', 'weed']  # 类别名称（类别索引从0开始）
